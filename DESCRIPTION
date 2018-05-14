@@ -1,0 +1,32 @@
+Package: relayer
+Type: Package
+Title: Rethinking layers in 'ggplot2'
+Version: 0.1.0
+Authors@R: c( 
+    person("Claus O.", "Wilke", , "wilke@austin.utexas.edu", c("cre", "aut")))
+Description: Layers are a core component of 'ggplot2', containing stats and geoms.
+    This package allows novel manipulations of those layers. 
+URL: https://github.com/clauswilke/relayer
+Depends:
+    R (>= 3.2)
+Imports:
+    ggplot2 (>= 2.2.0),
+    grid (>= 3.0.0),
+    plyr (>= 1.8.0),
+    rlang (>= 0.2.0.9000),
+    scales (>= 0.4.1),
+    withr (>= 2.1.1)
+License: GPL-2 | file LICENSE
+LazyData: true
+Suggests:
+    dplyr,
+    knitr,
+    rmarkdown,
+    testthat,
+    vdiffr
+VignetteBuilder: knitr
+Collate:
+    'relayer.R'
+    'remap_aes.R'
+RoxygenNote: 6.0.1.9000
+Roxygen: list(markdown = TRUE)
