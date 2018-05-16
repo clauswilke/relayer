@@ -27,6 +27,6 @@ Suggests:
 VignetteBuilder: knitr
 Collate:
     'relayer.R'
-    'remap_aes.R'
+    'rename_aes.R'
 RoxygenNote: 6.0.1.9000
 Roxygen: list(markdown = TRUE)
