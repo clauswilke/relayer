@@ -10,12 +10,13 @@ URL: https://github.com/clauswilke/relayer
 Depends:
     R (>= 3.2)
 Imports:
-    ggplot2 (>= 2.2.0),
+    ggplot2 (> 2.2.1),
     grid (>= 3.0.0),
     plyr (>= 1.8.0),
     rlang (>= 0.2.0.9000),
     scales (>= 0.4.1),
     withr (>= 2.1.1)
+Remotes: tidyverse/ggplot2
 License: GPL-2 | file LICENSE
 LazyData: true
 Suggests:
